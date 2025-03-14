@@ -4,3 +4,4 @@
     <li> Implementing a callback example using contional statements </li>
 </ul>
 
+This is an asynchronous nature of JS.
