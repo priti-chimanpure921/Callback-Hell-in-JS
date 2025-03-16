@@ -1,5 +1,4 @@
 //Nesting of callbacks is called callback hell
-
 let h1 = document.querySelector("h1");
 
 function changeColor(color,delay,nextColor)
@@ -47,8 +46,6 @@ saveToDB("Apna College1" , ()=>{
     }, ()=>{
         console.log("Failure2 : Data2 not saved to DB");
     });
-
-    
 }, ()=>{
     console.log("Failure1 : Data1 not saved to DB");
 });
